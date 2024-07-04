@@ -1,0 +1,366 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1700px){
+	.container{
+		max-width: 1550px;
+	}
+}
+@media (min-width: 1366px) and (max-width: 1699.98px){
+	html{
+		font-size: 50%;
+	}
+	.container{
+		max-width: 1270px;
+	}
+}
+@media (min-width: 1200px) and (max-width: 1365.98px){
+	html{
+		font-size: 46.06%;
+	}
+	.container{
+		max-width: 1170px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+	html{
+		font-size: 38.58%;
+	}
+	.container{
+		max-width: 980px;
+	}
+}
+@media (min-width: 992px){
+	.club_item:nth-child(even) .row{
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: reverse;
+		    -ms-flex-direction: row-reverse;
+		        flex-direction: row-reverse;
+	}
+	.club_item:nth-child(even) .location_box::before {
+		right: auto;
+		left: 0;
+		background-position: left center;
+		background-image: url(../img/shade7.png);
+	}
+	.club_item:nth-child(even) .location_box{
+		padding: 4rem 0 4rem 4rem;
+	}
+	.club_item:nth-child(even) .club_area_right>p,
+	.club_item:nth-child(even) .club_area_right>h2{
+		padding-left: 4rem;
+	}
+
+	.room_item:nth-child(even) .row{
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: reverse;
+		    -ms-flex-direction: row-reverse;
+		        flex-direction: row-reverse;
+	}
+	.room_item:nth-child(even) .super_box::before {
+		right: auto;
+		left: 0;
+		background-position: left center;
+		background-image: url(../img/shade9.png);
+	}
+	.room_item:nth-child(even) .super_box {
+	   padding: 4rem 0rem 4rem 6rem;
+	}
+}
+@media (max-width: 991.98px) {
+	html{
+		font-size: 50%;
+	}
+	#menu{
+		position: fixed;
+		top: 0;
+		left: -100%;
+		background-color: #fff;
+		text-align: center;
+		z-index: -1;
+		-webkit-transition: 0.3s;
+		-o-transition: 0.3s;
+		transition: 0.3s;
+		overflow: auto;
+		padding-top: 15rem;
+		padding-bottom: 2rem;
+		width: 100%;
+		height: 100%;
+		display: block;
+	}
+	#menu.current{
+		left: 0;
+	}
+	#menu li{
+		margin-top: 3rem;
+	}
+	#menu li a{
+		font-size: 2rem;
+	}
+	.hamburger-menu {
+		display: block;
+	}
+	header {
+	    padding: 3rem 0;
+	}
+	header .container{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+	}
+	.logo {
+	    position: relative;
+	    bottom: auto;
+	    left: auto;
+	    -webkit-transform: translateX(0);
+	        -ms-transform: translateX(0);
+	            transform: translateX(0);
+	    width: auto;
+	    height: auto;
+	    background-image: none;
+	}
+	.home_area {
+	    padding: 1rem 5rem 0 5rem;
+	}
+	.home_img {
+	    max-width: 100%;
+	    margin-top: 5rem;
+	}
+	.checkin_box {
+	    margin-top: 3rem;
+	    padding: 2.0rem 5rem 5rem;
+	}
+	.checkin_box .input_group{
+		margin-top: 3rem;
+	}
+	.checkin_box .button{
+		margin-top: 3rem;
+	}
+	.home_area::before {
+	    height: 80%;
+	    background-position: center center;
+	}
+	.details_box {
+	    padding: 1.6rem 4rem 4rem 4rem;
+	}
+	.details_box::before {
+	    width: 100%;	
+    }
+    .section_pad {
+	    padding: 2rem 0 7rem;
+	}
+	.brand_content {
+	    max-width: 73rem;
+	    border: 1rem solid #FFFFFF;
+	    margin-top: -8rem;
+	}
+	.slider1.swiper-container .swiper-slide.swiper-slide-active img {
+	    height: 42rem;
+	    -webkit-transform: scaleX(1.35);
+	        -ms-transform: scaleX(1.35);
+	            transform: scaleX(1.35);
+	}
+	.slider_text {
+	    width: 120%;
+	}
+	.event_area .title{
+		text-align: center;
+	}
+	.event_area .title h2{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.event_area img{
+		width: 100%;
+		height: 50rem;
+		-o-object-fit: cover;
+		   object-fit: cover;
+		margin-top: 5rem;
+	}
+	.event_box {
+	    max-width: 100%;
+	    margin: 4rem auto 3.5rem;
+	    padding: 2rem 3.5rem 0rem;
+	}
+	.offer_box.v2{
+		display: none;
+	}
+	.certificate_area .certificate_box {
+	    height: 40rem;
+	}
+	.footer_subscribe{
+		text-align: center;
+	}
+	.form_warp{
+		margin-right: auto;
+		margin-top: 4rem;
+	}
+	.facilities_box {
+	    padding: 4rem 2rem;
+	    margin-top: 3rem;
+	}
+	.facilities_img_section .row{
+		margin-left: -1.5rem;
+		margin-right: -1.5rem;
+	}
+	.facilities_img_section .row>div {
+	    padding-left: 1.5rem;
+	    padding-right: 1.5rem;
+	}
+	.facilities_area {
+	    padding: 8rem 5rem;
+	}
+	.pb_100 {
+	    padding-bottom: 5rem;
+	}
+	main {
+	    padding-top: 14rem;
+	}
+	.location_box {
+	    margin-top: 3rem;
+	}
+	.super_box::before {
+	    background-position: center center;
+	    width: 100%;
+	}
+	.super_box {
+	    padding: 4rem 6rem 4rem 6rem;
+	}
+	.details_wrap {
+    	-webkit-column-count: 1;
+    	   -moz-column-count: 1;
+    	        column-count: 1;
+	}
+	.details_wrap::before {
+    	display: none;
+	}
+	.facilities_area.offfer.text-center {
+		padding: 11rem 5rem;
+	}
+	.slider3 .swiper-slide {
+	    width: 60%;
+	}
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767.98px) {
+	html{
+		font-size: 37.5%;
+	}
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575.98px) {
+	html{
+		font-size: 1.45vw;
+	}
+	.container{
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+	.fitem{
+		width: 50%;
+	}
+	.home_area h2 {
+	    font-size: 5rem;
+	}
+	.home_area h5 {
+	    margin-top: 8rem;
+	}
+	.home_img {
+	    height: 45rem;
+	}
+	.home_area{
+		margin-left: -4rem;
+		margin-right: -4rem;
+	}
+	.home_area {
+	    padding: 1rem 4rem 0 4rem;
+	}
+	.home_area::before{
+		height: 52%;
+	}
+	.brand_content {
+	    border: none;
+	    padding: 4rem 4rem 0;
+	}
+	.offer_area .title h2{
+		text-align: center;
+	}
+	.slider2 {
+	    padding-right: 8rem;
+	}
+	.certificate_area .certificate_box {
+	    padding: 6.5rem 5rem;
+	    height: 34rem;
+	}
+	.footer_subscribe h2 {
+	    font-size: 3.5rem;
+	}
+	.facilities_area {
+	    padding: 8rem 4rem;
+	    margin-left: -4rem;
+	    margin-right: -4rem;
+	}
+	.facilities_area h2 {
+	    font-size: 4.5rem;
+	}
+	.hamburger-menu .line-top.current {
+	    -webkit-transform: translateY(235%) rotate(135deg);
+	        -ms-transform: translateY(235%) rotate(135deg);
+	            transform: translateY(235%) rotate(135deg);
+	}
+	.location_box::before {
+	    right: -4rem;
+	    height: 100%;
+	    width: calc(100% + 10rem);
+	}
+	.events_content_area h2 {
+	    font-size: 3.5rem;
+	}
+	.sub_container{
+		width: 100%;
+	}
+	.facilities_area.offfer.text-center {
+	    padding: 8rem 4rem;
+	}
+	.facilities_area.rooms_pages.text-center {
+	    padding: 8rem 4rem 8rem 4rem;
+	}
+	.super_box{
+		width: auto;
+		margin-left: -4rem;
+		margin-right: -4rem;
+	}
+	.super_box {
+	    padding: 4rem 4rem 4rem 4rem;
+	}
+	.room_item .title>ul {
+	    -webkit-column-count: 1;
+	       -moz-column-count: 1;
+	            column-count: 1;
+	}
+	.room_item:nth-child(n+3) .title>ul li {
+	    max-width: 100%;
+	}
+	.offer_details {
+		padding: 3rem;
+	}
+	.details_wrap li {
+	    font-size: 2rem;
+	}
+	.offer_details h5 {
+	    font-size: 2rem;
+	}
+	.offer_details h2,
+	.offer_details h3{
+		font-size: 3.5rem;
+	}
+	.slider3 .swiper-slide {
+	    width: 85%;
+	}
+}
